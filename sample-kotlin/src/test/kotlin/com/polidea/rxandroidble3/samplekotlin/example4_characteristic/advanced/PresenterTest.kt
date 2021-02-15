@@ -1,13 +1,13 @@
-package com.polidea.rxandroidble2.samplekotlin.example4_characteristic.advanced
+package com.polidea.rxandroidble3.samplekotlin.example4_characteristic.advanced
 
 import android.bluetooth.BluetoothGattCharacteristic.PROPERTY_INDICATE
 import android.bluetooth.BluetoothGattCharacteristic.PROPERTY_NOTIFY
 import android.bluetooth.BluetoothGattCharacteristic.PROPERTY_READ
 import android.bluetooth.BluetoothGattCharacteristic.PROPERTY_WRITE
 import android.os.Build
-import com.polidea.rxandroidble2.RxBleDevice
-import com.polidea.rxandroidble2.mockrxandroidble.RxBleClientMock
-import com.polidea.rxandroidble2.samplekotlin.BuildConfig
+import com.polidea.rxandroidble3.RxBleDevice
+import com.polidea.rxandroidble3.mockrxandroidble.RxBleClientMock
+import com.polidea.rxandroidble3.samplekotlin.BuildConfig
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.observers.TestObserver
 import io.reactivex.rxjava3.subjects.PublishSubject
